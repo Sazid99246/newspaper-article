@@ -2,9 +2,24 @@ html {
     font-size: 24px;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f7f5;
+}
+
 .newspaper {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    width: 70%;
+    padding: 0 20px;
+    border-radius: 10px;
 }
 
 .name {
@@ -15,6 +30,10 @@ html {
 .name,
 .author {
     text-transform: uppercase;
+}
+
+.name, .date {
+    text-align: center;
 }
 
 .headline {
